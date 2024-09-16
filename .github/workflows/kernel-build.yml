@@ -54,6 +54,11 @@ jobs:
             arch: arm64
             defconfig: bcm2712_defconfig
             kernel: kernel_2712
+            
+          - name: venator
+            arch: arm64
+            defconfig: venator_defconfig
+            kernel: kernel_2712
 
     steps:
     - name: Update install
